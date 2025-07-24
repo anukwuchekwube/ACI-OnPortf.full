@@ -1,0 +1,13 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { font-size: 100%; }
+@media (min-width: 640px) { html { font-size: 112.5%; } }
+@media (min-width: 1024px) { html { font-size: 125%; } }
+
+body.black { background-color: #000; color: #fff; }
+body.white { background-color: #fff; color: #000; }
+body.bluewhite { background-color: #eff6ff; color: #1e3a8a; }
+body.yellowblack { background-color: #facc15; color: #000; }
